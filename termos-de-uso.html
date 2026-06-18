@@ -1,78 +1,283 @@
-# Termos de Uso — AgendaBox
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Termos de Uso do AgendaBox." />
+  <title>Termos de Uso - AgendaBox</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --primary: #49649c;
+      --primary-dark: #334978;
+      --background: #f5f7fb;
+      --surface: #ffffff;
+      --text: #20242c;
+      --muted: #5e6675;
+      --border: #dfe4ee;
+    }
 
-**Última atualização: 18 de junho de 2026**
+    * {
+      box-sizing: border-box;
+    }
 
-Ao criar uma conta, acessar ou utilizar o AgendaBox, o usuário declara que leu e concorda com estes Termos de Uso e com a Política de Privacidade.
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
 
-## 1. Identificação do serviço
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #ffffff;
+      padding: 42px 20px;
+      text-align: center;
+    }
 
-O AgendaBox é uma plataforma de gestão disponibilizada em aplicativo e ambiente web, sob responsabilidade de Jonas Nielsen, contato pelo e-mail [progmobile2025@gmail.com](mailto:progmobile2025@gmail.com).
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 5vw, 46px);
+    }
 
-## 2. Finalidade do AgendaBox
+    header p {
+      margin: 0;
+      opacity: 0.92;
+    }
 
-O AgendaBox oferece ferramentas para organização de empresas e profissionais, incluindo cadastro de clientes, profissionais, serviços e produtos, gerenciamento de agendamentos, controle financeiro, registros de vendas e gastos, organização de horários e envio de lembretes e notificações.
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 28px auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(22px, 4vw, 42px);
+      box-shadow: 0 12px 30px rgba(35, 52, 86, 0.08);
+    }
 
-## 3. Cadastro e acesso
+    h2 {
+      margin-top: 32px;
+      color: var(--primary-dark);
+      font-size: 22px;
+    }
 
-O usuário deve fornecer informações verdadeiras, completas e atualizadas. É responsável por proteger sua senha, controlar o acesso à conta e responder pelas ações realizadas por meio dela.
+    h2:first-of-type {
+      margin-top: 0;
+    }
 
-## 4. Responsabilidades da empresa usuária
+    p,
+    li {
+      font-size: 16px;
+    }
 
-A empresa ou profissional que utiliza o AgendaBox é responsável pelas informações inseridas, pelos serviços prestados aos clientes e pela obtenção das autorizações necessárias para cadastrar e utilizar dados pessoais.
+    ul {
+      padding-left: 22px;
+    }
 
-É proibido utilizar a plataforma para atividades ilegais, fraudulentas, abusivas ou que violem direitos de terceiros.
+    a {
+      color: var(--primary-dark);
+      font-weight: 700;
+    }
 
-## 5. Integração com WhatsApp e Meta
+    .notice {
+      margin: 22px 0;
+      padding: 16px 18px;
+      border-left: 5px solid var(--primary);
+      border-radius: 10px;
+      background: #eef2fb;
+    }
 
-O AgendaBox pode permitir o envio de mensagens e lembretes por meio do WhatsApp Business e dos serviços da Meta.
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
 
-O funcionamento dessa integração depende da aprovação de contas, números e modelos de mensagens, além do cumprimento das regras estabelecidas pela Meta e pelo WhatsApp.
+    .links a {
+      display: inline-block;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      text-decoration: none;
+      background: #ffffff;
+    }
 
-A empresa usuária é responsável por utilizar números e dados de contato que esteja autorizada a administrar e por enviar mensagens apenas para finalidades legítimas relacionadas ao atendimento e aos agendamentos.
+    footer {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto 32px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Termos de Uso - AgendaBox</h1>
+    <p>Última atualização: 18 de junho de 2026</p>
+  </header>
 
-## 6. Planos e pagamentos
+  <main>
+    <div class="notice">
+      Ao criar uma conta, acessar ou utilizar o AgendaBox, o usuário declara que leu e concorda com estes Termos de Uso e com a Política de Privacidade.
+    </div>
 
-O AgendaBox poderá oferecer funcionalidades gratuitas e pagas. Quando houver contratação, o preço, a periodicidade, os recursos incluídos e as condições de cancelamento serão informados antes da confirmação.
+    <h2>1. Identificação do serviço</h2>
+    <p>
+      O <strong>AgendaBox</strong> é uma plataforma de gestão disponibilizada em aplicativo e ambiente web, sob responsabilidade de <strong>Jonas Nielsen</strong>, contato pelo e-mail
+      <a href="mailto:progmobile2025@gmail.com">progmobile2025@gmail.com</a>.
+    </p>
 
-## 7. Cancelamento e exclusão da conta
+    <h2>2. Finalidade do AgendaBox</h2>
+    <p>
+      O AgendaBox oferece ferramentas para organização de negócios e profissionais, incluindo, conforme a versão contratada ou disponibilizada:
+    </p>
+    <ul>
+      <li>cadastro de empresas, profissionais, clientes, serviços e produtos;</li>
+      <li>criação e gerenciamento de agendamentos;</li>
+      <li>controle financeiro, registros de vendas e gastos;</li>
+      <li>gestão de horários, agenda e informações do atendimento;</li>
+      <li>envio de lembretes e notificações, inclusive por WhatsApp, quando a função estiver habilitada;</li>
+      <li>outras funcionalidades apresentadas dentro da plataforma.</li>
+    </ul>
 
-O usuário poderá deixar de utilizar o serviço e solicitar o encerramento da conta conforme as opções disponíveis na plataforma ou pelas instruções publicadas na página de exclusão de dados.
+    <h2>3. Cadastro e acesso</h2>
+    <p>
+      Para utilizar determinadas funcionalidades, o usuário deverá fornecer informações verdadeiras, completas e atualizadas. O usuário é responsável pela guarda de sua senha, pelo acesso à sua conta e pelas atividades realizadas por meio dela.
+    </p>
+    <p>
+      Contas não devem ser compartilhadas com pessoas não autorizadas. Em caso de suspeita de acesso indevido, o usuário deverá alterar sua senha e comunicar o AgendaBox pelo e-mail de contato.
+    </p>
 
-## 8. Disponibilidade
+    <h2>4. Responsabilidades da empresa usuária</h2>
+    <p>
+      A empresa ou profissional que utiliza o AgendaBox é responsável pelas informações inseridas na plataforma e pela relação mantida com seus clientes, funcionários e prestadores.
+    </p>
+    <p>Compete à empresa usuária:</p>
+    <ul>
+      <li>obter e manter as autorizações ou bases legais necessárias para cadastrar e utilizar dados de clientes;</li>
+      <li>manter corretos os dados de contato, serviços, valores, horários e profissionais;</li>
+      <li>respeitar a legislação aplicável à sua atividade;</li>
+      <li>não utilizar a plataforma para práticas ilícitas, fraudulentas, abusivas ou que violem direitos de terceiros;</li>
+      <li>atender solicitações de seus clientes relacionadas a agendamentos, cancelamentos, cobranças e serviços prestados.</li>
+    </ul>
 
-O AgendaBox busca manter seus serviços disponíveis e seguros, mas poderão ocorrer interrupções por manutenção, atualizações, falhas de internet ou indisponibilidade de serviços de terceiros, como Firebase, Google, Meta e WhatsApp.
+    <h2>5. Integração com WhatsApp e Meta</h2>
+    <p>
+      O AgendaBox pode permitir o envio de mensagens e lembretes por meio de serviços da Meta e do WhatsApp Business. A utilização dessa integração depende da disponibilidade técnica, da autorização da conta, da aprovação de modelos de mensagem e do cumprimento das regras da Meta e do WhatsApp.
+    </p>
+    <p>
+      A empresa usuária é responsável por utilizar números, contas e dados de contato que esteja autorizada a administrar, bem como por enviar mensagens apenas para finalidades legítimas relacionadas ao atendimento e ao agendamento.
+    </p>
+    <p>
+      O AgendaBox não controla decisões da Meta, incluindo aprovação ou rejeição de contas, números, modelos de mensagem, limites de envio, bloqueios, tarifas e indisponibilidades dos serviços de terceiros.
+    </p>
 
-## 9. Dados pessoais e privacidade
+    <h2>6. Planos, pagamentos e cobranças</h2>
+    <p>
+      O AgendaBox poderá oferecer funcionalidades gratuitas e pagas. Quando houver contratação de plano pago, o preço, a periodicidade, os recursos incluídos e as condições de cancelamento serão informados antes da confirmação da compra.
+    </p>
+    <p>
+      Eventuais cobranças realizadas por lojas de aplicativos, plataformas de pagamento, Meta, WhatsApp ou outros terceiros estarão sujeitas também às condições desses fornecedores.
+    </p>
 
-O tratamento de dados pessoais está detalhado na Política de Privacidade do AgendaBox.
+    <h2>7. Cancelamento e encerramento da conta</h2>
+    <p>
+      O usuário poderá deixar de utilizar o serviço e solicitar o encerramento da conta conforme as opções disponíveis na plataforma ou pelas instruções publicadas na página de exclusão de dados.
+    </p>
+    <p>
+      O cancelamento de um plano pago interrompe cobranças futuras de acordo com as condições apresentadas no momento da contratação, sem prejuízo de valores já devidos ou de regras específicas da plataforma de pagamento utilizada.
+    </p>
 
-A empresa usuária poderá atuar como controladora dos dados de seus clientes. O AgendaBox poderá atuar como operador ou prestador de tecnologia ao processar dados em nome dessa empresa.
+    <h2>8. Uso proibido</h2>
+    <p>É proibido utilizar o AgendaBox para:</p>
+    <ul>
+      <li>violar leis, regulamentos ou direitos de terceiros;</li>
+      <li>enviar spam, mensagens enganosas, ameaçadoras ou não autorizadas;</li>
+      <li>inserir dados obtidos de forma ilícita;</li>
+      <li>tentar acessar contas, sistemas, códigos ou dados sem autorização;</li>
+      <li>copiar, modificar, distribuir, explorar ou realizar engenharia reversa da plataforma, salvo quando permitido por lei;</li>
+      <li>prejudicar o funcionamento, a segurança ou a disponibilidade do serviço.</li>
+    </ul>
 
-## 10. Propriedade intelectual
+    <h2>9. Disponibilidade e atualizações</h2>
+    <p>
+      O AgendaBox busca manter o serviço disponível e seguro, mas poderá realizar atualizações, manutenções, correções ou alterações de funcionalidades. Interrupções também podem ocorrer por falhas de internet, provedores de nuvem, lojas de aplicativos, serviços da Meta, Firebase ou outros fornecedores externos.
+    </p>
+    <p>
+      Funcionalidades poderão ser modificadas, substituídas ou descontinuadas, especialmente quando isso for necessário por motivos técnicos, legais, de segurança ou por mudanças em serviços de terceiros.
+    </p>
 
-O software, a identidade visual, as telas, os textos, a marca e as funcionalidades do AgendaBox são protegidos pelas normas aplicáveis de propriedade intelectual.
+    <h2>10. Dados pessoais e privacidade</h2>
+    <p>
+      O tratamento de dados pessoais relacionado ao uso do AgendaBox está descrito na Política de Privacidade. Ao utilizar a plataforma, o usuário também concorda com esse documento.
+    </p>
+    <p>
+      A empresa usuária poderá atuar como controladora dos dados de seus clientes e deverá fornecer as informações e atender os direitos previstos na legislação aplicável. O AgendaBox poderá atuar como operador ou prestador de tecnologia quando processar esses dados em nome da empresa usuária.
+    </p>
 
-Os dados inseridos pela empresa usuária permanecem sob sua responsabilidade.
+    <h2>11. Conteúdo e propriedade intelectual</h2>
+    <p>
+      O AgendaBox, sua identidade visual, software, estrutura, textos, telas, marcas e funcionalidades são protegidos pelas normas de propriedade intelectual aplicáveis.
+    </p>
+    <p>
+      Os dados e conteúdos cadastrados pela empresa usuária permanecem sob sua responsabilidade. O usuário concede ao AgendaBox apenas as autorizações técnicas necessárias para armazenar, processar, exibir e transmitir esses dados com a finalidade de prestar o serviço.
+    </p>
 
-## 11. Suspensão do acesso
+    <h2>12. Serviços de terceiros</h2>
+    <p>
+      A plataforma poderá utilizar serviços de terceiros, como Firebase, Google, Meta, WhatsApp, lojas de aplicativos, serviços de hospedagem e processadores de pagamento. O funcionamento desses serviços está sujeito aos respectivos termos, políticas, limites e disponibilidade.
+    </p>
 
-O acesso poderá ser suspenso ou encerrado em situações de fraude, violação destes Termos, riscos à segurança, inadimplência, uso ilegal ou determinação de autoridade competente.
+    <h2>13. Suspensão de acesso</h2>
+    <p>
+      O acesso poderá ser suspenso ou encerrado em caso de fraude, uso ilegal, violação destes Termos, risco à segurança, inadimplência de plano pago, determinação de autoridade competente ou necessidade de proteção da plataforma e de seus usuários.
+    </p>
+    <p>
+      Sempre que razoavelmente possível, o usuário será informado sobre a medida e poderá entrar em contato para esclarecimentos.
+    </p>
 
-## 12. Limitação de responsabilidade
+    <h2>14. Limitação de responsabilidade</h2>
+    <p>
+      O AgendaBox é uma ferramenta de organização e apoio à gestão. A empresa usuária continua responsável pela prestação de seus serviços, pelo atendimento aos clientes, pela conferência dos agendamentos, pelos valores cobrados e pelas obrigações legais de sua atividade.
+    </p>
+    <p>
+      Nada nestes Termos exclui ou limita direitos que não possam ser afastados pela legislação brasileira. Eventuais responsabilidades serão avaliadas conforme a legislação aplicável e as circunstâncias do caso concreto.
+    </p>
 
-O AgendaBox é uma ferramenta de organização e apoio à gestão. A empresa usuária continua responsável pelos serviços prestados, pelo atendimento aos clientes, pela conferência dos agendamentos, pelos valores cobrados e pelas obrigações legais relacionadas à sua atividade.
+    <h2>15. Alterações destes Termos</h2>
+    <p>
+      Estes Termos poderão ser atualizados para refletir mudanças legais, técnicas ou funcionais. A versão vigente estará disponível nesta página, com a data da última atualização.
+    </p>
+    <p>
+      Quando a alteração for relevante, o AgendaBox poderá comunicar o usuário pela plataforma, por e-mail ou por outro meio adequado.
+    </p>
 
-Nada nestes Termos elimina direitos garantidos pela legislação brasileira.
+    <h2>16. Legislação aplicável</h2>
+    <p>
+      Estes Termos são regidos pela legislação brasileira. Eventuais controvérsias serão submetidas ao foro legalmente competente, preservados os direitos do consumidor e o foro de seu domicílio quando aplicável.
+    </p>
 
-## 13. Alterações
+    <h2>17. Contato</h2>
+    <p>
+      Dúvidas, solicitações ou comunicações relacionadas a estes Termos podem ser enviadas para:
+    </p>
+    <p>
+      <strong>Responsável:</strong> Jonas Nielsen<br />
+      <strong>E-mail:</strong> <a href="mailto:progmobile2025@gmail.com">progmobile2025@gmail.com</a>
+    </p>
 
-Estes Termos poderão ser atualizados para refletir mudanças legais, técnicas ou funcionais. A versão atualizada permanecerá disponível nesta página.
+    <div class="links">
+      <a href="https://progmobile2025-wq.github.io/NielsenSolutions/">Política de Privacidade</a>
+      <a href="https://progmobile2025-wq.github.io/NielsenSolutions/exclusao-conta.html">Exclusão de conta e dados</a>
+      <a href="https://agendabox.app/">AgendaBox</a>
+    </div>
+  </main>
 
-## 14. Legislação aplicável
-
-Estes Termos são regidos pela legislação brasileira. Eventuais controvérsias serão submetidas ao foro legalmente competente, preservados os direitos do consumidor e o foro de seu domicílio quando aplicável.
-
-## 15. Contato
-
-**Responsável:** Jonas Nielsen
-**E-mail:** [progmobile2025@gmail.com](mailto:progmobile2025@gmail.com)
+  <footer>
+    AgendaBox — Termos de Uso
+  </footer>
+</body>
+</html>
